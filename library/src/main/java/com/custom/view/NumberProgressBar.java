@@ -1,4 +1,4 @@
-package com.daimajia.numberprogressbar;
+package com.custom.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,12 +11,9 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import static com.daimajia.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Invisible;
-import static com.daimajia.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Visible;
+import static com.custom.view.NumberProgressBar.ProgressTextVisibility.Invisible;
+import static com.custom.view.NumberProgressBar.ProgressTextVisibility.Visible;
 
-/**
- * Created by daimajia on 14-4-30.
- */
 public class NumberProgressBar extends View {
 
     private int mMaxProgress = 100;

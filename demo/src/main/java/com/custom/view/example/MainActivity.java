@@ -1,4 +1,4 @@
-package com.daimajia.numberprogressbar.example;
+package com.custom.view.example;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -6,8 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.daimajia.numberprogressbar.NumberProgressBar;
-import com.daimajia.numberprogressbar.OnProgressBarListener;
+import com.custom.view.NumberProgressBar;
+import com.custom.view.OnProgressBarListener;
 
 import java.util.Timer;
 import java.util.TimerTask;
